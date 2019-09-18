@@ -12,6 +12,8 @@
 		55492D6C2331E9E000197B79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55492D6A2331E9E000197B79 /* Main.storyboard */; };
 		55492D6E2331E9E100197B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55492D6D2331E9E100197B79 /* Assets.xcassets */; };
 		55492D712331E9E100197B79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55492D6F2331E9E100197B79 /* LaunchScreen.storyboard */; };
+		55492D792331EC1700197B79 /* PermanentStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55492D782331EC1700197B79 /* PermanentStorage.swift */; };
+		55492D7C2331EC5D00197B79 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55492D7B2331EC5D00197B79 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		55492D6D2331E9E100197B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55492D702331E9E100197B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55492D722331E9E100197B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55492D782331EC1700197B79 /* PermanentStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermanentStorage.swift; sourceTree = "<group>"; };
+		55492D7B2331EC5D00197B79 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		55492D652331E9E000197B79 /* TDLearnSwiftUserDefaultsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				55492D7A2331EC3D00197B79 /* PermentStorage */,
 				55492D662331E9E000197B79 /* AppDelegate.swift */,
 				55492D682331E9E000197B79 /* ViewController.swift */,
 				55492D6A2331E9E000197B79 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				55492D722331E9E100197B79 /* Info.plist */,
 			);
 			path = TDLearnSwiftUserDefaultsDemo;
+			sourceTree = "<group>";
+		};
+		55492D7A2331EC3D00197B79 /* PermentStorage */ = {
+			isa = PBXGroup;
+			children = (
+				55492D782331EC1700197B79 /* PermanentStorage.swift */,
+				55492D7B2331EC5D00197B79 /* Constant.swift */,
+			);
+			path = PermentStorage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55492D792331EC1700197B79 /* PermanentStorage.swift in Sources */,
 				55492D692331E9E000197B79 /* ViewController.swift in Sources */,
 				55492D672331E9E000197B79 /* AppDelegate.swift in Sources */,
+				55492D7C2331EC5D00197B79 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
